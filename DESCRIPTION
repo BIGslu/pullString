@@ -1,0 +1,21 @@
+Package: pullString
+Type: Package
+Title: R STRING DB Interface
+Version: 0.5.0
+Authors@R: person("Tomasz", "Janczyk", email = "janczyk.tom@gmail.com",
+  role = c("aut", "cre"))
+Description: Collection of functions to interact with STRING Database.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    httptest2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    httr2,
+    jsonlite,
+    readr,
+    shiny
+RoxygenNote: 7.3.1
+StagedInstall: no
