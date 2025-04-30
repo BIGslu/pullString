@@ -87,9 +87,9 @@ pullString::embed_string_net()
 Manual page lists them all `?string_request_js`. 
 
 
-### Mapping identifiers You can map your various identifiers like gene ensembl
-id, HGNC symbol, protein symbol, etc. onto the STRING protein/gene names by
-calling:
+### Mapping identifiers 
+You can map your various identifiers like gene ensembl id, HGNC symbol, protein symbol, etc. 
+onto the STRING protein/gene names by calling:
 ```
 get_string_identifiers(ids = gene_set)
 ```
