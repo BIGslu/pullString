@@ -7,7 +7,7 @@
 To install the package from GitHub, run:
 
 ```
-devtools::install_github("tomasy-j/pullString")
+devtools::install_github("BIGslu/pullString")
 ```
 
 **Before you start coding:**
