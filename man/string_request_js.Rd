@@ -2,7 +2,7 @@
 % Please edit documentation in R/embed_string_net.R
 \name{string_request_js}
 \alias{string_request_js}
-\title{Define STRING network parameters}
+\title{Embed interactive STRING network}
 \usage{
 string_request_js(
   ids,
@@ -56,5 +56,5 @@ developers. If left blank, defaults to \code{pullString} and current
 package version}
 }
 \description{
-Define STRING network parameters
+This function embeds interactive STRING network in your HTML document
 }
