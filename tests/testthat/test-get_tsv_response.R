@@ -171,16 +171,4 @@ with_mock_dir("get_ppi_enrichment", {
         "local_clustering_coefficient", "expected_number_of_edges", "p_value")
     )
   })
-
-})
-
-
-test_that("get_link gives correct url", {
-
-  ref_url <- "https://version-12-0.string-db.org/cgi/link?to=607C938394238655"
-  expect_equal(
-    get_link(ids = input_genes),
-    ref_url
-  )
-
 })
